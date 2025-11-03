@@ -1,0 +1,28 @@
+# FastAPI web framework
+fastapi==0.111.0
+
+# Uvicorn ASGI server (run FastAPI)
+uvicorn[standard]==0.30.0
+
+# ORM (database)
+sqlalchemy==2.0.30
+
+# Data validation
+pydantic==2.7.1
+
+# Load .env environment variables
+python-dotenv==1.0.1
+
+# For HTTP requests (Pushover notifications, etc.)
+requests==2.32.3
+
+# Optional: for colored terminal logs
+colorama==0.4.6
+
+# (Future) LLM/AutoGen dependencies - install when you switch from mock to real agents
+# autogen-core
+# autogen-agentchat
+# autogen-ext
+# langchain
+# openai
+# anthropic
